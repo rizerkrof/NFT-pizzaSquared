@@ -11,7 +11,7 @@ contract Lock is ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
-    constructor() ERC721("ticket event", "TE") {}
+    constructor() ERC721("PIZZA!", "PZA") {}
 
     function mintNFT(address recipient, string memory tokenURI)
         public onlyOwner

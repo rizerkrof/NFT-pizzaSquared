@@ -1,0 +1,18 @@
+#+title: PIZZA!
+#+STARTUP: inlineimages nofold
+
+#+CAPTION: dataViz-womanParliamentSeatsWorldWide
+#+NAME:   fig:Sdv-wpsww
+[[./assets/readmeImages/previewDisplay.png]]
+
+* Table of Contents :TOC_3:noexport:
+- [[#description][Description]]
+  - [[#authors][Authors]]
+
+* Description
+This is a NFT collection project. Collect your favorite pizza!
+
+** Authors
++ [[https://github.com/rizerkrof][rizerkrof]]
++ [[https://github.com/Zuwhity][Zuwhity]]
+

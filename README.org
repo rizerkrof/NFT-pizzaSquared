@@ -3,8 +3,8 @@
 
 #+CAPTION: dataViz-womanParliamentSeatsWorldWide
 #+NAME:   fig:Sdv-wpsww
-[[./assets/readmeImages/previewDisplay.png
-]]
+[[./assets/readmeImages/previewDisplay.png]]
+
 * Table of Contents :TOC_3:noexport:
 - [[#description][Description]]
   - [[#authors][Authors]]

@@ -1,0 +1,31 @@
+{
+    "name": "PIZZA! 0028",
+    "description": "One of the many pizzas",
+    "image": "https://gateway.pinata.cloud/ipfs/QmT5b4ASet9HgKJWTKHBa8JCaP4vkNAZ7TrjxRFiUvAPdg/0028.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "pink"
+        },
+        {
+            "trait_type": "base",
+            "value": "cream"
+        },
+        {
+            "trait_type": "paste",
+            "value": "burned"
+        },
+        {
+            "trait_type": "topings1",
+            "value": "pepperoni"
+        },
+        {
+            "trait_type": "topings2",
+            "value": "basilica"
+        },
+        {
+            "trait_type": "topings3",
+            "value": "burata"
+        }
+    ]
+}

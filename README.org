@@ -1,4 +1,4 @@
-#+title: PIZZA!
+#+title: PizzaSquared!
 #+STARTUP: inlineimages nofold
 
 #+CAPTION: dataViz-womanParliamentSeatsWorldWide
@@ -7,12 +7,31 @@
 
 * Table of Contents :TOC_3:noexport:
 - [[#description][Description]]
+  - [[#context][Context]]
+  - [[#the-pizzasquared-project][The PizzaSquared project]]
   - [[#authors][Authors]]
+- [[#deploy-project][Deploy project]]
 
 * Description
 This is a NFT collection project. Collect your favorite pizza!
+** Context
+It all started several months ago. Our whole group of friends had gathered to taste our friend Gabriel's pizzas. We had heard so much about it but didn't know what to expect. He had gone to great lengths to arrange lunch. Once everyone's glasses were filled with a tasty beer, it was time! Gabriel took out the first dough prepared the day before.
+
+He began to knead the dough while explaining the purpose of each gesture. The Neapolitan slap! The first pizza was a Margherita. He put it in the oven and took care to brown each part of the pizza well. We hadn't had time to watch the pizza cook as it was already ready. At that precise moment we all already knew that this was not just a simple pizza but a work of cookery art. This was confirmed when we each take a bite.
+
+Here comes the thing, We found out that Gabriel have a talent. But, also a dream. The dream to open is own a pizza and beer restaurant. This restaurant would be a place where everyone could meet in a warm atmosphere and share a good quality meal prepared with love and made with noble and good quality ingredients.
+
+** The PizzaSquared project
+The world is sorely lacking in places like the one Gabriel has in mind. The PizzaSquared project, which represents a collection of 50 3D randomly generated slices of pizza defined as NFTs was created to give a little boost to Gabriel who remains skeptical about the success of his dream. All profits made from the sale of each slice of PizzaSquared will be invested in Gabriel's dream. Special benefits to be used in Gabriel's future restaurant will be given to each PizzaSquared slice holder depending on the ingredients present on the slice.
+
+Feel free the see the project directly on [[https://testnets.opensea.io/collection/pizza-squared-1][Opensea]].
 
 ** Authors
 + [[https://github.com/rizerkrof][rizerkrof]]
 + [[https://github.com/Zuwhity][Zuwhity]]
 
+* Deploy project
+| description           | command                                            |
+|-----------------------+----------------------------------------------------|
+| create smart contract | ~npx hardhat run scripts/deploy.ts --network mumbai~ |
+| mint all NFTs         | ~npx hardhat run scripts/mint.ts --network mumbai~   |
